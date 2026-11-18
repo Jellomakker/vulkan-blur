@@ -1,4 +1,4 @@
-<p align="center"><img src="icon.png" width="128" alt="Vulkan Blur icon"></p>
+<p align="center"><img src="mc-26.1/src/main/resources/assets/vulkanmotionblur/icon.png" width="128" alt="Vulkan Blur icon"></p>
 
 # Vulkan Blur
 
