@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.jello.vmb.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "GameRendererMixin",
+    "PostPassMixin",
+    "PostPassAccessor",
+    "PostChainAccessor"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}

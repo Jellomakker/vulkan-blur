@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "vulkanmotionblur",
+  "version": "${version}",
+  "name": "Vulkan Blur",
+  "description": "Vulkan Blur: a lightweight MOTION BLUR mod (frame blending) that works with VulkanMod and Sodium. Same blur at any FPS, HUD stays sharp. Configure in Mod Menu.",
+  "authors": ["jello"],
+  "license": "MIT",
+  "icon": "assets/vulkanmotionblur/icon.png",
+  "contact": { "homepage": "https://modrinth.com/mod/vulkan-blur" },
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.jello.vmb.VulkanMotionBlur"],
+    "modmenu": ["dev.jello.vmb.ModMenuIntegration"]
+  },
+  "mixins": ["vulkanmotionblur.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*",
+    "vulkanmod": "*"
+  }
+}
+
